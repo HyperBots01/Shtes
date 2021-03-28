@@ -1,0 +1,115 @@
+
+.gecis {
+    border-color: rgb(251, 180, 48) currentcolor currentcolor;
+}
+
+.display-4 {
+  font-size:30px !important;
+}
+
+.dank {
+  background:rgb(251, 180, 48);
+  color:black !important;
+  transition:.3s;
+}
+
+.dank:hover {
+  background:rgb(251, 180, 48) !important;
+  color:white !important;
+  transition:.3s;
+}
+
+.typed {
+  color:rgb(251, 180, 48) !important;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+li {
+  color:rgb(251, 180, 48) !important;
+}
+
+.cont {
+  border:1px solid #2C2F33;
+  border-radius:2px;
+}
+
+.jumbotron h1 {
+  font-weight:700;
+  color:rgb(251, 180, 48) !important;
+  font-size:100px;
+  text-shadow: 6px 7px 16px #000;
+}
+
+.sub {
+  font-size:18px;
+  color:#fff !important;
+}
+
+.lead {
+  color:#fff !important;
+}
+
+h2, h3, h4, h5 {
+  color:#fff !important;
+}
+
+#card {
+  font-size:80px;
+  color:rgb(251, 180, 48);
+}
+
+.smol {
+  width:200px;
+}
+
+#fat {
+  font-weight:700;
+}
+
+.card {
+  background: #202324 !important;
+  border:0px !important;
+}
+.card:hover {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron {
+  border-radius:15px !important;
+  background: url(https://i.hizliresim.com/e5Ykwa.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom:5px solid rgb(251, 180, 48);
+}
